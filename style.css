@@ -1,0 +1,106 @@
+body { /* no whitespace in body*/
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 210, 201);
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.header { /* styling of the header */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #333;
+    color: aliceblue;
+    top: 0%;
+    width: 100%;
+    overflow: hidden;
+}
+.header h1{ /* padding the left side of the title */
+    padding-left: 5%;
+}
+.button { /* centering the button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+.btn { /* styling the button */
+    background-color: #e18340;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn:hover {
+    opacity: 1;
+}
+.dialog { /*styling the dialog box */
+    width: 300px;
+    height: 300px;
+    border-style: dotted;
+    overflow: hidden;
+    background-color:rgb(222, 211, 195);
+    border-radius: 10px;
+}
+.form h2 { /*styling the title of the form */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+    margin-top: -1.5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.title , .author , .number { /*styling of the input forms*/
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn11 {
+    margin-top: 2%;
+    width: 50%;
+    background-color: #e18340;
+    color: white;
+    padding: 10px 32px;
+    border: none;
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn11:hover {
+    opacity: 1;
+}
+.book-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: -2%;
+    margin-top: -3%;
+    row-gap: 5%;
+    
+}
+.card {
+    width: 300px;
+    height: 180px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
